@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 class="headers">Week 1</h1>
+    <ul>
+      <li>I have learnt how to:</li>
+      <ol>
+        <li>h1,h2,h3,h4,h5,h6 &lt; headers &gt;</li>
+        <li>p &lt; paragraph &gt;</li>
+        <li>import video (iframe)</li>
+      </ol>
+
+      <li>
+        It is very useful and helpful especially when I am structuring my
+        Website
+      </li>
+    </ul>
+
+    <h1 class="headers">Week 2</h1>
+
+    <ul>
+      <li>I have learnt how to categorize html and CSS codes</li>
+      <ol>
+        <li>&lt;aside&gt;</li>
+        <!--For content that is indirectly related to your main content-->
+
+        <li>&lt;header&gt;</li>
+        <!--Can be used at the top of page content to encapsulate navigation,logos-->
+        <li>&lt;section&gt;</li>
+        <li>&lt;article&gt;</li>
+        <!--Commonly used for news content,blog posts or independent content piece-->
+        <li>&lt;nav&gt;</li>
+        <!--Usually for location of the menu links. This is for key navigation elements in the site and NOT for every link in a site.-->
+        <li>&lt;details&gt;</li>
+        <li>&lt;main&gt;</li>
+      </ol>
+
+      <li>CSS</li>
+      <p class="styling">
+        To apply CSS use &lt;style&gt; or link it from other sources
+      </p>
+
+      <ol>
+        <li>colour: e.g. red, rgb,rgba and hyperdecimal</li>
+
+        <li>Id -> 2 uses:</li>
+        <ul>
+          <br />
+          <li>In HTML, 'id' is used to locate stuff</li>
+          <li>
+            In CSS, it is used to apply properties to classes that begin with
+            "id =' ' "
+          </li>
+          <li>E.g. #heading</li>
+        </ul>
+
+        <li>
+          Classes( group elements -> easier to apply CSS code to the elements in
+          the group )
+        </li>
+        <ul>
+          <li>
+            begin with a dot ---- followed by the name of the class attribute
+          </li>
+          <li>
+            For more specific classes, put the name of the html attribute -> dot
+            -> den the class attribute
+          </li>
+        </ul>
+
+        <li>Typography -> learned how to import fonts form google fonts</li>
+        <ul>
+          <li>Font stacking (font-family: 'font 1','font 2',...;)</li>
+        </ul>
+
+        <li>CSS3 Gradient</li>
+        <p>Refer to Week 2 slides for more information</p>
+      </ol>
+
+      <img src="images/Common starters.jpg" alt=" Different Headings" />
+    </ul>
+
+    <h1>Week 3</h1>
+    <h2>Labelling and input</h2>
+    <ol>
+      <li>These are the different inputs:</li>
+      <ul>
+        <li>
+          <label class="inputs"
+            >This is input of text
+            <input type="text" placeholder="Type something"
+          /></label>
+        </li>
+
+        <li>
+          <label class="inputs"
+            >This an input of time <input type="email" placeholder="Email" />
+          </label>
+        </li>
+
+        <li>
+          <label class="inputs"
+            >This an input of time <input type="time" />
+          </label>
+        </li>
+
+        <li>
+          <label class="inputs"
+            >This an input of file <input type="file" />
+          </label>
+        </li>
+
+        <li>
+          <label class="inputs"
+            >This an input of submit <input type="submit" value="Submission" />
+          </label>
+        </li>
+
+        <li>
+          <label class="inputs"
+            >This an input of password
+            <input type="password" placeholder="Password pls" />
+          </label>
+        </li>
+
+        <li>
+          <label class="inputs"
+            >This an input of radiobox <input class="move" type="radio" />
+          </label>
+        </li>
+
+        <li>
+          <label class="inputs"
+            >This an input of a checkbox <input class="move" type="checkbox" />
+          </label>
+        </li>
+
+        <p>
+          <span class="important-info"
+            >There is an option to make the type required</span
+          >
+        </p>
+      </ul>
+    </ol>
+
+    <h2>CSS Specificity</h2>
+    <ol>
+      <li>id (#, Is the <strong>First</strong> priority)</li>
+      <li>class (.class name, Is the <strong>Second</strong> priority)</li>
+      <li>type (p, is the <strong>Third</strong> priority)</li>
+      <li>Universal(*, is the <strong>Fourth</strong> priority)</li>
+    </ol>
+
+    <h2>Media Queries</h2>
+
+    <p>Media features are used to test a specific feature of the device</p>
+    <img
+      class="image"
+      src="Image of Media.jpg"
+      alt="Image of Media Queries( Can refer to
+    Brightspace)"
+    />
+
+    <h2>Positioning</h2>
+    <ol>
+      <li>Relative</li>
+      <ul>
+        <li>
+          Moves elements around relative to<br />
+          where they would appear on the page
+        </li>
+
+        <img class="image" src="Relative Image.jpg" alt="Relative positition" />
+      </ul>
+
+      <li>Absolute</li>
+      <ul>
+        <li class="text">
+          Offset is relative to the entire browser window instead of the
+          original position of the element.
+        </li>
+        <br />
+
+        <li class="text">
+          Absolute position elements are placed in relation to a parent
+          content(browser viewport, or parent element). The parent is the
+          positioning context
+        </li>
+        <br />
+
+        <li class="text">
+          If the parent element has the position of relative and the child
+          element has the position of absolute, the child will move according to
+          the dimensions of the parent
+        </li>
+        <br />
+
+        <img
+          class="image"
+          src="Absolute image.jpg"
+          alt="Image of absolute explanation"
+        />
+      </ul>
+
+      <li>Fixed</li>
+      <ul>
+        <li>Fixed elements don't scroll with the rest of the page</li>
+        <br />
+
+        <img
+          class="image"
+          src="Fixed Image.jpg"
+          alt="Image of Fixed position"
+        />
+      </ul>
+
+      <li>Z-Index</li>
+      <ul>
+        <li>
+          Z-index property lets you control the depth of elements on the page
+        </li>
+      </ul>
+      <br />
+
+      <ul>
+        <li>Negative z-index go farther into the page. (behind)</li>
+      </ul>
+      <br />
+
+      <ul>
+        <li>Positive z-index comes out of the page</li>
+      </ul>
+      <br />
+
+      <img
+        class="image"
+        src="Z-index Image.jpg"
+        alt="Image of z-index position"
+      />
+    </ol>
+  </body>
+
+  <style>
+    .styling {
+      color: red;
+      font-size: 30px;
+    }
+
+    .inputs {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .move {
+      position: relative;
+      top: 3px;
+    }
+
+    .important-info {
+      font-weight: bold;
+      color: red;
+      font-size: 20px;
+      margin-top: 5px;
+    }
+
+    .image {
+      width: 500px;
+    }
+
+    .text {
+      width: 700px;
+    }
+  </style>
+</html>
